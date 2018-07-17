@@ -8,6 +8,9 @@ class Dog
     @breed = breed 
     @age = age 
     @@dog_array << self 
-
+  end 
+  
+  def self.all 
+    @@dog_array
   end 
 end
